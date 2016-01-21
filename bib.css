@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+body {
+	background-color: #1a1a1a;
+	/*color: #202020;*/
+	color: #fbf3a0;
+	margin: 10px 0;
+}
+
+body, select, input, textarea {
+	font-family: Georgia, serif;
+	font-size: 14px;
+}
+
+input, textarea{
+	background: #2a2a2a;
+	color: #FBF3A0;
+	border: 1px solid #DDB774;
+}
+
+a {
+/*    color: #333399;*/
+	color: #ddb774;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #b38247;
+}
+
+.comment_text a, .postContent a, .announcement a, #description a, .conversation_body a {
+	text-decoration: underline;
+}
+
+.announcement{
+	border-bottom: 1px solid #5b5b5b;
+	padding-top: 10px;
+}
+
+img {
+	border: medium none;
+}
+
+h1 {
+	font-size: 24px;
+	color: #f7f7f7;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+#superwrap {
+	width: 1000px;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pre_header {
+	margin: 20px 0 3px 0;
+	overflow: hidden;
+	font-size: 12px;
+	vertical-align: top;
+	color: #fbf3a0;
+}
+
+#pre_header_status {
+	list-style-type:none;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding:0;
+}
+
+#pre_header_status li {
+	float: left;
+	margin-right:0.5em;
+	}
+
+#pre_header_nav {
+	list-style-type:none;
+	text-align: right;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#pre_header_nav li {
+	float:left;
+	margin:0;
+	padding: 0 6px;
+	background: transparent url(http://bibliotik.org/static/dot.gif) no-repeat center right;
+}
+
+#pre_header_nav li:last-child {
+	background:none;
+}	
+
+#header {
+	border-top: 1px dotted #000000;
+	border-bottom: 1px dotted #000000;
+	overflow: hidden;
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+
+#header_top {
+	clear: both;
+	padding: 0 10px;
+	overflow: hidden;
+	margin: 0;
+}
+
+#header_logo {
+	float: left;
+	margin: 0;
+	background-image: url('https://whatimg.com/i/tho1t1.png');
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 170px;
+}
+#header_notifications {
+	margin: 0;
+	padding: 0;
+	float: right;
+	padding-right: 20px;
+}
+
+#header_notifications ul {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#freeleech {
+	 background: #B3D98C;
+	 padding: 4px;
+	 list-style-type:none;
+}
+
+#donate {
+	float: right;
+}
+
+#donate a:link, #donate a:visited {
+	font-size:110%;
+	background-color:#B0B0B0;
+	color: #FFFFFF;
+	padding: 6px;
+	line-height: 1.5;
+}
+
+#donate a:hover, #donate a:active {
+	background:#969696;
+	color:#FAFAFA;
+}
+
+#header_nav {
+	clear: both;
+	padding: 5px 0;
+	overflow: hidden;
+	vertical-align: bottom;
+	margin: 0;
+}
+
+#header_nav_links {
+	font-size: 16px;
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+
+#header_nav_links li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+	margin: 0;
+}
+
+#header_nav_search {
+	text-align: right;
+	float: right;
+	padding-bottom: 2px;
+	margin: 0;
+	color: #746d74;
+}
+
+#search_header {
+	width: 250px;
+}
+
+#body {
+	padding: 10px;
+}
+
+#body > h1 {
+	margin-top: 10px;
+}
+
+#title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.title a:visited {
+	color: #696d71;
+/*    color: #339933;*/
+}
+
+#sidebar {
+	width: 230px;
+	float: right;
+}
+
+#sidebar_links {
+	padding-left: 10px;
+}
+
+#gallery {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#gallery li {
+	display: inline-block;
+	padding: 2px;
+}
+
+.details_torrents {
+	font-size: 18px;
+}
+
+.details_requests, .details_collections, .details_authors, .details_artists, .details_publishers, .details_peers, .details_snatches, #published, #details_tags {
+	font-size: 16px;
+}
+
+#main {
+	width: 720px;
+	float: left;
+}
+
+#main h2 {
+	margin: 0 0 10px 0;
+}
+
+#detailsbox {
+	margin-bottom: 10px;
+}
+
+#detailsbox > p {
+	margin: 0 0 0 10px;
+	padding: 3px;
+}
+
+#creatorlist {
+	font-size: 20px;
+}
+
+#details_links {
+	padding-top: 10px;
+}
+
+#files {
+	padding-bottom: 20px;
+}
+
+#description {
+	line-height: 20px;
+}
+
+#footer {
+	border-top: 1px dotted #000000;
+	padding: 5px 0 0 0;
+	margin: 20px 0 0 0;
+}
+
+#footer_nav {
+	clear: both;
+	font-size: 12px;
+	color: #555555;
+}
+
+#footer_nav ul {
+	list-style-type:none;
+	margin:0 0 0 2px;
+	padding:0;
+}
+#footer_nav h4 {
+	width:4em;
+	color: #fbf3a0;
+	margin:0 1em 4px 0;
+	padding:0;
+	float:left;
+	clear:left;
+}
+#footer_nav ul li {
+	margin:0 0 4px;
+	padding: 0 10px;
+	float:left;
+	background: transparent url(http://bibliotik.org/static/dot.gif) no-repeat center right;
+}
+#footer_nav ul li:last-child {
+	background:none;
+}
+#footer p {
+	clear:left;
+	padding-top:1.5em;
+}
+.pagination {
+	text-align: center;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+.table_div {
+	clear: both;
+	margin-top: 20px;
+}
+
+.table_div table tbody tr:hover {
+	background-color: #2a2a2a;
+}
+
+.table_div table th a {
+	color: #ddb774;
+}
+
+.t_comments, .t_snatches, .t_seeders, .t_leechers {
+	width: 20px;
+}
+
+.t_files_size_added {
+	white-space: nowrap;
+}
+
+#filter_list {
+	margin: 0;
+	padding: 0;
+}
+
+#filter_list li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	margin: 0;
+}
+
+#comments {
+	clear:both;
+	padding: 10px 0 0 0;
+}
+
+#comments table {
+	width: 100%;
+}
+
+.comment {
+	width: 100%;
+	text-align: left;
+}
+
+.comment_header {
+
+}
+
+.comment_avatar {
+	width:80px;
+	vertical-align:top;
+}
+
+.comment_text {
+	vertical-align: top;
+}
+
+#forumWrap h3 {
+	margin:1em 0 0;
+	padding: 0 0 .5em 5px;
+}
+
+.forums, #forum_topics, .table_div table {
+	width: 100%;
+	border: 1px solid #5b5b5b;
+	text-align: left;
+}
+
+.forums thead, #forum_topics thead, #forum_topics tfoot, .table_div table thead, .table_div table tfoot {
+	height: 1.5em;
+}
+
+.forums td, .forums th, #forum_topics th, #forum_topics td, .table_div table th, .table_div table td {
+	padding: 2px 5px;
+	margin:0;
+}
+.forums tbody td, #forum_topics tbody td, .table_div table tbody td {
+	border: solid #5b5b5b;
+	border-width: 1px 1px 0 0;
+}
+
+.forums tbody td:last-child, #forum_topics tbody td:last-child, .table_div table tbody td:last-child {
+	border-width: 1px 0 0 0;
+}
+
+.table_div table th {
+	padding: 5px;
+}
+#forum_topics .pagination {
+	margin:0;padding:.25em;
+	text-align:right;
+}
+#forum_topics thead .pagination {
+	display:none;
+}
+.table_div table .pagination {
+	padding:5px 3px 10px;
+}
+
+#posts {
+   border-width:0px 1px 1px;
+   border-style: solid;
+   border-color:#5b5b5b;
+}
+
+.forumPost {
+	clear:both;
+	border-width:1px 0 0 0;
+	border-style:solid;
+	border-color:#5b5b5b;
+}
+
+.forumPost:after {
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.postInfo {
+	margin:0;
+	padding:4px;
+	height:1.5em;
+	background:#2a2a2a;
+}
+
+.forumAvatar{
+	width:88px;
+	float:left;
+	margin:4px;
+}
+
+.postContent {
+	margin-left:92px;
+	min-height:84px;
+	padding:4px 4px 1em;
+	overflow:auto;
+}
+
+.quote blockquote, pre {
+	margin:0;
+	padding:4px;
+	border:1px dotted #959595;
+	background:#2a2a2a;
+}
+
+.quote, pre {
+	margin:.5em 0 .33em .5em
+}
+
+.conversation_headline {
+	font-size: 16px;
+}
+
+.conversation_body {
+	padding: 10px 0 10px 10px;
+}
+
+img.imageResize {
+	/* width: 100% (initially added to resize images that are too large, but it also stretches smaller images) */
+}
